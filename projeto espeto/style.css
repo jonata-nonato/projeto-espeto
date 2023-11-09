@@ -125,6 +125,7 @@ aside > p{
     line-height: normal;
     margin-top: 126px;
     margin-left: 33px;
+    margin-bottom: 20px;
 }
 .cartao{
     width: 270px;
@@ -143,10 +144,10 @@ aside > p{
     border-radius: 11.148px;
     background: var(--color-white, #FFF);
     margin-top: 27px;
-    margin-left: 38.02px;
+     margin-left: 10px; 
     margin-bottom: 43.65px;
     position: absolute;
-    top:;
+    top:275px;
 }
 
 
@@ -173,7 +174,6 @@ aside > p{
 }
 .card-sobremesa footer{
     height: 30%;
-    background-color: red;
     display: flex;
     width: 100%;
 }
@@ -202,17 +202,25 @@ aside > p{
     font-style: normal;
 }
 .mais{
-    /* display: flex;
-    width: 60.138px;
-    height: 60.138px;
-    padding: 30.069px;
-    justify-content: center;
-    align-items: center;
-    gap: 12.529px;
-    flex-shrink: 0;
-    border-radius: 10.023px;
-    background: var(--color-yellow, #F8B602);
     border: none;
-    position: absolute; */
-    background-image: url();
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
 }
+.mais img{
+    object-fit: cover;
+}
+.balance > p{
+    color: var(--color-black, #2E2E2E);
+    font-family: Poppins;
+    font-size: 22.296px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.balance > h1{
+    
+    
+}
+
+
