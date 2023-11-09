@@ -173,9 +173,11 @@ aside > p{
     line-height: normal;
 }
 .card-sobremesa footer{
-    height: 30%;
+    height: 10%;
     display: flex;
     width: 100%;
+    transform: translateY(23px);
+    justify-content: space-around;
 }
 .sec-sob img{
     width: 280px;
@@ -199,28 +201,51 @@ aside > p{
     color: var(--color-black, #000000);
     font-family: Poppins;
     font-size: 30.069px;
-    font-style: normal;
+    font-weight: 800;
 }
 .mais{
+    background-color: #F8B602;
     border: none;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-}
-.mais img{
-    object-fit: cover;
+    width: 65px;
+    height: 65px;
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 600;
+    border-radius: 15px;
 }
 .balance > p{
+    color: var(--color-black, #2E2E2E);
+    font-family: Poppins;
+    font-size: 9.754px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.balance > h1{
     color: var(--color-black, #2E2E2E);
     font-family: Poppins;
     font-size: 22.296px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
-.balance > h1{
+.top-up{
+    width: 47.018px;
+    height: 47.975px;
+    flex-shrink: 0;
+    border-radius: 11.148px;
+    background: var(--color-white, #FFF);
+    position: absolute;
+    top: 301px;
+    left: 1150px;
     
-    
+}
+.top-up > img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 
