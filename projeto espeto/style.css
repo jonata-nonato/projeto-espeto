@@ -104,11 +104,17 @@ aside{
     background: var(--color-white, #FFF);
     font-style: normal;
     font-weight: 900;
-    line-height: 0%;
-    
+    line-height: 0%;   
 }
 .sec-esp img{
-    width: 280px;
+    width: 270px;
+}
+.card-espetinhos footer{
+    height: 10%;
+    display: flex;
+    width: 100%;
+    transform: translateY(-100px);
+    justify-content: space-around;
 }
 
 
