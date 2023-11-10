@@ -109,7 +109,6 @@ aside{
 }
 .sec-esp img{
     width: 280px;
-    height: 280px;
 }
 
 
@@ -176,7 +175,7 @@ aside > p{
     height: 10%;
     display: flex;
     width: 100%;
-    transform: translateY(23px);
+    transform: translateY(35px);
     justify-content: space-around;
 }
 .sec-sob img{
@@ -214,6 +213,14 @@ aside > p{
     font-weight: 600;
     border-radius: 15px;
 }
+.mais:hover{
+    background-color: #eeb61b;
+}
+.mais:active {
+    background-color: #f8c436; /* Altere a cor conforme necessário */
+    color: white;
+  }
+
 .balance > p{
     color: var(--color-black, #2E2E2E);
     font-family: Poppins;
