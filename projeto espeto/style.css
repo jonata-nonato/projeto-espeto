@@ -14,11 +14,11 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 2%;
 }
 header h1{
     font: normal;
-    font-size: 50pt;
+    font-size:70px;
     font-family: 'poppins';
 }
 h1 {
@@ -49,7 +49,7 @@ main{
         display: flex;    
         width: 24.5%;    
         height: 11vh;    
-        padding: 38.772px;    
+        padding: 4%;    
         flex-direction: column;    
         justify-content: center;   
         align-items: center;    
@@ -74,8 +74,8 @@ main{
     .card-espetinhos{
         display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 420px;
+        width: 23.5vw;
+        height: 75vh;
         justify-content: center;
         align-items: center;
         border-radius: 19.386px;
@@ -95,7 +95,7 @@ main{
         justify-content: space-around;
     }
     .sec-esp img{
-        width: 250px;
+        width: 20vw;
         transform: translateY(-35px);
     }
 
@@ -107,8 +107,8 @@ main{
     .card-sobremesa{
         display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 420px;
+        width: 23.5vw;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         border-radius: 19.386px;
@@ -128,7 +128,8 @@ main{
         justify-content: space-around;
     }
     .sec-sob img{
-        width: 280px;
+        /* width: 280px; */
+        width: 20vw;
     }
     .card-sobremesa > p , .card-espetinhos > P{
         color: var(--color-black, #2E2E2E);
@@ -168,7 +169,8 @@ main{
         justify-content: space-around;
     }
     .sec-beb img{
-        width: 180px;
+        /* width: 180px; */
+        width: 15vw;
         transform: translateY(-20px);
     }
 
@@ -245,6 +247,9 @@ aside > p{
     font-style: normal;
     font-weight: 700;
     transform: translate(10px,15px);
+    background: -webkit-linear-gradient(left, #eeb61b 22%, #2E2E2E 0%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 .preco{
     color: var(--color-black, #000000);
@@ -256,13 +261,15 @@ aside > p{
 .mais{
     background-color: #F8B602;
     border: none;
-    width: 52px;
-    height: 52px;
+    width: 17%;
+    /* height: 52px; */
+    height: 120%;
     color: white;
     font-size: 30px;
     font-family: poppins;
     font-weight: 600;
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-radius: 29%;
     transform: translate(-10px,10px);
 }
 .mais:hover{
@@ -311,165 +318,223 @@ aside > p{
     width: 25px;
     height: 25px;
 }
-/**/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: hsl(0, 0%, 96%);
-    font-family: 'Poppins', sans-serif;
-}
-
-header {
-    background: #F5ca48;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-header h1 {
-    font-size: 4vw; /* Adjust font size based on viewport width */
-}
-
-main {
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sec-cat,
-.sec-esp,
-.sec-sob,
-.sec-beb {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.card-categorias,
-.card-espetinhos,
-.card-sobremesa,
-.card-bebidas {
-    width: 100%; /* Adjust the width based on your design */
-    margin-bottom: 20px;
-}
-
-.card-categorias img,
-.card-esp img,
-.card-sobremesa img,
-.card-bebidas img {
-    width: 100%;
-    max-width: 100%;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 5vw;
-    text-align: center;
-}
-
-h5 {
-    font-size: 1.5vw;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-main h1 {
-    font-size: 3vw;
-}
-
-aside {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cartao,
-.top-up {
-    width: 100%;
-}
-
-.balance,
-.top-up {
-    position: static;
-    top: auto;
-}
-
-.balance h1,
-.top-up p {
-    font-size: 1.2vw;
-}
-
-.mais,
-.mais:hover,
-.mais:active {
-    font-size: 2vw;
-}
-
-@media only screen and (min-width: 768px) {
-    main {
-        width: 73%;
-        margin: 0 2vw;
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 10px;
     }
-
-    .card-categorias,
-    .card-espetinhos,
-    .card-sobremesa,
-    .card-bebidas {
-        width: 48%;
-        margin-bottom: 20px;
+    .balance > h1{
+        font-size: 10px;
+    
     }
-
-    h1 {
-        font-size: 3vw;
+    header h1{
+        font-size:60px;
     }
-
-    h5 {
-        font-size: 1.2vw;
-        margin-top: 30px;
+    .card-categorias > p{       
+        font-size: 35px;      
     }
+    .preco{
+        font-size: 25px;
 
-    main h1 {
-        font-size: 2vw;
     }
-
-    aside {
-        width: 22%;
-        height: 1393px;
-        flex-shrink: 0;
-        background: var(--color-white, #FFF);
-        border-radius: 20px;
+    .cifrao{
+        font-size: 30px;
+    }
+    aside{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    main{
+        width: 95%;
+        height: 95%;
+    }
+    .card-espetinhos{
         display: flex;
         flex-direction: column;
+        width: 45vw;
+        height: 60vh;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 19.386px;
+        background: var(--color-white, #FFF);
+        color: var(--color-black, #2E2E2E);
+        font-family: Poppins;
+        font-size: 22.552px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .sec-esp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     footer > p{
+        font-size: 300em;
+        background: -webkit-linear-gradient(left, #eeb61b 22%, #2E2E2E 0%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+     .sec-sob{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-
-    .balance,
-    .top-up {
-        width: auto;
-        position: absolute;
-        top: 330px;
+     .card-sobremesa{
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 60vh;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 19.386px;
+        background: var(--color-white, #FFF);
+        color: var(--color-black, #2E2E2E);
+        font-family: Poppins;
+        font-size: 22.552px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
-
-    .balance h1,
-    .top-up p {
-        font-size: 1.5vw;
+    .sec-beb{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    .card-bebidas{
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        height: 60vh;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 19.386px;
+        background: var(--color-white, #FFF);
+        color: var(--color-black, #2E2E2E);
+        font-family: Poppins;
+        font-size: 22.552px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
+    .sec-cat img{
+        width: 13vw;
+    }
+    .sec-beb img{
+        /* width: 180px; */
+        width: 30vw;
+        transform: translateY(-20px);
+    }
+    .sec-sob img{
+        /* width: 280px; */
+        width: 30vw;
+    }
+    .sec-esp img{
+        width: 30vw;
+        transform: translateY(-35px);
+    }
+}
 
-    .mais,
-    .mais:hover,
-    .mais:active {
-        font-size: 2.5vw;
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    p{
+        font-size: 12px;
+    }
+    .balance > h1{
+        font-size: 12px;
+    
+    }
+    header h1{
+        font-size:50px;
+    }
+    .card-categorias > p{       
+        font-size: 16px;      
+    }
+    .preco{
+        font-size: 20px;
+
+    }
+    .cifrao{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 14px;
+    }
+    .balance > h1{
+        font-size: 14px;
+    }
+    header h1{
+        font-size:40px;
+    }
+    .card-categorias > p{       
+        font-size: 12px;      
+    }
+    .preco{
+        font-size: 16px;
+
+    }
+    .cifrao{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    p{
+        font-size: 9px;
+    }
+    .balance > h1{
+
+        font-size: 9px;
+    
+    }
+    header h1{
+        font-size:30px;
+    }
+    .card-categorias > p{       
+        font-size: 18px;      
+    }
+    .preco{
+        font-size: 13px;
+
+    }
+    .cifrao{
+
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 7px;
+    }
+    .balance > h1{
+        font-size: 7px;
+    
+    }
+    header h1{
+        font-size:20px;
+    }
+    .card-categorias > p{       
+        font-size: 36px;      
+    }
+    .preco{
+        font-size: 8px;
+
+    }
+    .cifrao{
+
+        font-size: 11px;
     }
 }
 
