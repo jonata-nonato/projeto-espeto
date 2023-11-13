@@ -311,6 +311,166 @@ aside > p{
     width: 25px;
     height: 25px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 96%);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #F5ca48;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 4vw; /* Adjust font size based on viewport width */
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-cat,
+.sec-esp,
+.sec-sob,
+.sec-beb {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-categorias,
+.card-espetinhos,
+.card-sobremesa,
+.card-bebidas {
+    width: 100%; /* Adjust the width based on your design */
+    margin-bottom: 20px;
+}
+
+.card-categorias img,
+.card-esp img,
+.card-sobremesa img,
+.card-bebidas img {
+    width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.5vw;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+main h1 {
+    font-size: 3vw;
+}
+
+aside {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao,
+.top-up {
+    width: 100%;
+}
+
+.balance,
+.top-up {
+    position: static;
+    top: auto;
+}
+
+.balance h1,
+.top-up p {
+    font-size: 1.2vw;
+}
+
+.mais,
+.mais:hover,
+.mais:active {
+    font-size: 2vw;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 73%;
+        margin: 0 2vw;
+    }
+
+    .card-categorias,
+    .card-espetinhos,
+    .card-sobremesa,
+    .card-bebidas {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    h5 {
+        font-size: 1.2vw;
+        margin-top: 30px;
+    }
+
+    main h1 {
+        font-size: 2vw;
+    }
+
+    aside {
+        width: 22%;
+        height: 1393px;
+        flex-shrink: 0;
+        background: var(--color-white, #FFF);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .balance,
+    .top-up {
+        width: auto;
+        position: absolute;
+        top: 330px;
+    }
+
+    .balance h1,
+    .top-up p {
+        font-size: 1.5vw;
+    }
+
+    .mais,
+    .mais:hover,
+    .mais:active {
+        font-size: 2.5vw;
+    }
+}
 
 
 
