@@ -318,26 +318,39 @@ aside > p{
     width: 25px;
     height: 25px;
 }
-@media only screen and (max-width: 959px) {
-    p{
-        font-size: 10px;
+.mobile{
+    display: none;
+}
+@media only screen and (min-width: 959px)and (max-width: 1000px) {
+    .card-espetinhos > p{
+        font-size: 35px;
+    }
+    .card-sobremesa > p{
+        font-size: 35px;
+    }
+    .card-bebidas > p{
+        font-size: 35px;
     }
     .balance > h1{
         font-size: 10px;
     
     }
+    h5{
+        font-size: 40px;
+        
+    }
     header h1{
         font-size:60px;
     }
     .card-categorias > p{       
-        font-size: 35px;      
+        font-size: 30px;      
     }
     .preco{
-        font-size: 25px;
+        font-size: 60px;
 
     }
     .cifrao{
-        font-size: 30px;
+        font-size: 50px;
     }
     aside{
         display: none;
@@ -351,9 +364,9 @@ aside > p{
     .card-espetinhos{
         display: flex;
         flex-direction: column;
-        width: 45vw;
-        height: 60vh;
-        margin-bottom: 10px;
+        width: 50vw;
+        height: 54vh;
+        margin-bottom: 15px;
         justify-content: center;
         align-items: center;
         border-radius: 19.386px;
@@ -386,9 +399,9 @@ aside > p{
      .card-sobremesa{
         display: flex;
         flex-direction: column;
-        width: 45vw;
-        height: 60vh;
-        margin-bottom: 10px;
+        width: 50vw;
+        height: 54vh;
+        margin-bottom: 15px;
         justify-content: center;
         align-items: center;
         border-radius: 19.386px;
@@ -409,9 +422,9 @@ aside > p{
     .card-bebidas{
         display: flex;
         flex-direction: column;
-        width: 45vw;
-        height: 60vh;
-        margin-bottom: 10px;
+        width: 50vw;
+        height: 54vh;
+        margin-bottom: 15px;
         justify-content: center;
         align-items: center;
         border-radius: 19.386px;
@@ -424,118 +437,149 @@ aside > p{
         line-height: normal;
     }
     .sec-cat img{
-        width: 13vw;
+        width: 15vw;
     }
     .sec-beb img{
         /* width: 180px; */
-        width: 30vw;
+        width: 35vw;
         transform: translateY(-20px);
     }
     .sec-sob img{
         /* width: 280px; */
-        width: 30vw;
+        width: 35vw;
     }
     .sec-esp img{
-        width: 30vw;
+        width: 35vw;
         transform: translateY(-35px);
     }
 }
+@media only screen and (max-width: 959px) and (max-height: 1281px) {
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    p{
-        font-size: 12px;
+    aside{
+        width: 0px;
+        height: 0px;
     }
-    .balance > h1{
-        font-size: 12px;
-    
+    .desktop > main{
+        width: 0px;
+        height: 0px;
     }
-    header h1{
-        font-size:50px;
+    .mobile > main {
+        width: 100%;
     }
-    .card-categorias > p{       
-        font-size: 16px;      
+    body{
+        background-color: #F9F9FB;
+        width: 100vw;
     }
-    .preco{
-        font-size: 20px;
+    .mobile > header > .menu{
+        width: 10%;
+        height: 24%;
+        flex-shrink: 0;
+        margin-right: 20px;
 
+        
     }
-    .cifrao{
-        font-size: 30px;
-    }
-}
-
-
-@media only screen and (max-width: 767px) {
-    p{
-        font-size: 14px;
-    }
-    .balance > h1{
-        font-size: 14px;
-    }
-    header h1{
-        font-size:40px;
-    }
-    .card-categorias > p{       
-        font-size: 12px;      
-    }
-    .preco{
+    .mobile > main > h3 {
+        color: #000;
+        font-family: Montserrat;
         font-size: 16px;
-
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
     }
-    .cifrao{
-        font-size: 30px;
+    .mobile > header{
+        background-color: #F9F9FB;
+        display: flex;
+        justify-content: space-between;
     }
-}
-
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    p{
-        font-size: 9px;
+    .mobile{
+        display: block;
     }
-    .balance > h1{
-
-        font-size: 9px;
-    
-    }
-    header h1{
-        font-size:30px;
-    }
-    .card-categorias > p{       
-        font-size: 18px;      
-    }
-    .preco{
-        font-size: 13px;
-
-    }
-    .cifrao{
-
-        font-size: 30px;
-    }
-}
-
-
-@media only screen and (max-width: 479px) {
-    p{
-        font-size: 7px;
-    }
-    .balance > h1{
-        font-size: 7px;
-    
-    }
-    header h1{
-        font-size:20px;
-    }
-    .card-categorias > p{       
-        font-size: 36px;      
-    }
-    .preco{
-        font-size: 8px;
-
-    }
-    .cifrao{
-
-        font-size: 11px;
-    }
+   .desktop{
+    display: none;
+   }
+   .mobile > header > h1 {
+    color: #313234;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   }
+   .sec-categorias-mobile{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: #313234;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+   
+   .card-categoria-espeto{
+    background: #F5CA48;
+    width: 105px;
+    height: 189px;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+   .card-categoria-sobre{
+    background: #F9F9FB;
+    width: 105px;
+    height: 189px;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+   .card-categoria-bebida{
+    background: #F9F9FB;
+    width: 105px;
+    height: 189px;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+   .img-card-mobile{
+    width: 70px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15px;
+    top: 15px;
+   }
+   .card-categoria-espeto > p, .card-categoria-bebida > p, .card-categoria-sobre > p{
+    position: relative;
+    top: 29px;
+    text-align: center;
+   }
+   .bot-card{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border: none;
+    border-radius: 50%;
+    fill: #FFF;
+    color: #313234;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
 }
 
 
