@@ -533,7 +533,7 @@ aside > p{
     align-items: center;
    }
    .card-categoria-sobre{
-    background: #535357;
+    background: #f5f5f5;
     width: 130px;
     height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
@@ -543,7 +543,7 @@ aside > p{
     align-items: center;
    }
    .card-categoria-bebida{
-    background: #49494b;
+    background: #f5f5f5;
     width: 130px;
     height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
@@ -570,8 +570,8 @@ aside > p{
     width: 26px;
     height: 26px;
     position: relative;
-    top: 40px;
-    left: 40px;
+    top: 60px;
+    left: 50px;
     border: none;
     border-radius: 50%;
     fill: #FFF;
@@ -581,6 +581,13 @@ aside > p{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+   }
+   .titulos-cat{
+    margin-top: 27px;
+   }
+   .seta{
+    position: relative;
+    top: -26px;
    }
 }
 
