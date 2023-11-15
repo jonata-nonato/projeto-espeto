@@ -471,8 +471,8 @@ aside > p{
         width: 100vw;
     }
     .mobile > header > .menu{
-        width: 10%;
-        height: 24%;
+        width: 27px;
+        height: 27px;
         flex-shrink: 0;
         margin-right: 20px;
 
@@ -485,7 +485,8 @@ aside > p{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        
+        margin-left: 21px;
+        margin-bottom: 16px;
     }
     .mobile > header{
         background-color: #F9F9FB;
@@ -505,6 +506,7 @@ aside > p{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 16px;
    }
    .sec-categorias-mobile{
     width: 95vw;
@@ -522,8 +524,8 @@ aside > p{
    
    .card-categoria-espeto{
     background: #F5CA48;
-    width: 105px;
-    height: 189px;
+    width: 130px;
+    height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
     border-radius: 20px;
     margin-left: 10px;
@@ -531,9 +533,9 @@ aside > p{
     align-items: center;
    }
    .card-categoria-sobre{
-    background: #F9F9FB;
-    width: 105px;
-    height: 189px;
+    background: #535357;
+    width: 130px;
+    height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
     border-radius: 20px;
     margin-left: 10px;
@@ -541,9 +543,9 @@ aside > p{
     align-items: center;
    }
    .card-categoria-bebida{
-    background: #F9F9FB;
-    width: 105px;
-    height: 189px;
+    background: #49494b;
+    width: 130px;
+    height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
     border-radius: 20px;
     margin-left: 10px;
@@ -551,12 +553,12 @@ aside > p{
     align-items: center;
    }
    .img-card-mobile{
-    width: 70px;
+    width: 90px;
     height: 85px;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 15px;
+    left: 20px;
     top: 15px;
    }
    .card-categoria-espeto > p, .card-categoria-bebida > p, .card-categoria-sobre > p{
