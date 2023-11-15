@@ -509,7 +509,7 @@ aside > p{
     margin-left: 16px;
    }
    .sec-categorias-mobile{
-    width: 95vw;
+    width: 97vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -520,6 +520,7 @@ aside > p{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    
    }
    
    .card-categoria-espeto{
@@ -528,7 +529,7 @@ aside > p{
     height: 227px;
     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
     border-radius: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
    }
@@ -589,7 +590,61 @@ aside > p{
     position: relative;
     top: -26px;
    }
+
+.card-mobile-espeto{
+    width: 90vw;
+    height: 161px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #000;
+    margin: auto;
+}
+.card-mobile-espeto > h1 {
+    width: 122.167px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 27px;
+    left: 45.1px;
+}
+.coroa{
+    position: relative;
+    top: 9.5px;
+    left: 57.43px;
+}
+.card-mobile-espeto > p{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 138px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.estrela{
+    position: relative;
+    top: 2px;
+    left: 199px;
+}
+.card-mobile-espeto > h3{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    bottom: 14px;
+    left: 215px;
 }
 
+}
 
 
