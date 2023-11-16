@@ -465,6 +465,7 @@ aside > p{
     }
     .mobile > main {
         width: 100%;
+        height: 100%;
     }
     body{
         background-color: #F9F9FB;
@@ -592,13 +593,15 @@ aside > p{
    }
 
 .card-mobile-espeto{
-    width: 90vw;
+    width: 80vw;
     height: 161px;
     flex-shrink: 0;
     border-radius: 25px;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #000;
-    margin: auto;
+    margin-bottom: 34px;
+    margin-left: 20px;
+    
 }
 .card-mobile-espeto > h1 {
     width: 122.167px;
@@ -610,17 +613,17 @@ aside > p{
     line-height: normal;
     position: relative;
     top: 27px;
-    left: 45.1px;
+    left: 10px;
 }
 .coroa{
     position: relative;
     top: 9.5px;
-    left: 57.43px;
+    left: 27px;
 }
-.card-mobile-espeto > p{
+.card-mobile-espeto > .nome-do-espeto{
     position: relative;
     top: 20px;
-    left: 50px;
+    left: 20px;
     width: 138px;
     font-family: "Montserrat";
     font-size: 14px;
@@ -630,8 +633,8 @@ aside > p{
 }
 .estrela{
     position: relative;
-    top: 2px;
-    left: 199px;
+    top: -13px;
+    left: 165px;
 }
 .card-mobile-espeto > h3{
     color: #000;
@@ -641,10 +644,42 @@ aside > p{
     line-height: normal;
     font-size: 12px;
     position: relative;
-    bottom: 14px;
-    left: 215px;
+    top: -30px;
+    left: 180px;
 }
-
+.espeto-lang-mobile{
+    position: relative;
+    bottom: 122px;
+    left: 60%;
+    width: 30vw;
 }
-
-
+.preco_mobile{
+    width: 94.304px;
+    color: #C4C4C4;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: 25px;
+    left: 21px;
+    }
+    .card-prod-espeto{
+        height: 100%;
+        width: auto;
+}
+.retangulo{
+    position: relative;
+    top: -145px;
+    left: -154px;
+}
+.espeto-car-mobile{
+    width: 100px;
+    height: 161px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    position: relative;
+    left: 310px;
+    top: -104px;}
+}
