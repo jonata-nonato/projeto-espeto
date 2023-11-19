@@ -526,7 +526,7 @@ aside > p{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: 5px;
+    margin-left: 0px;
    }
    
    /* .card-categoria-espeto{
@@ -738,7 +738,7 @@ aside > p{
     line-height: normal;
     font-size: 12px;
     position: relative;
-    top: -29px;
+    top: -28px;
     left: 180px;
 }
 .estrela-carne{
@@ -754,7 +754,7 @@ aside > p{
     line-height: normal;
     font-size: 12px;
     position: relative;
-    top: -29px;
+    top: -28px;
     left: 158px;
 }
 
