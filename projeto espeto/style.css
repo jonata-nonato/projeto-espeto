@@ -606,6 +606,7 @@ aside > p{
     margin-bottom: 34px;
     margin-left: 20px;
     position:relative ;
+    overflow: hidden;
 }
 .card-mobile-espeto > h1 {
     width: 122.167px;
@@ -635,27 +636,10 @@ aside > p{
     font-weight: 600;
     line-height: normal;
 }
-.estrela{
-    position: relative;
-    top: -13px;
-    left: 165px;
-}
-.card-mobile-espeto > h3{
-    color: #000;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -30px;
-    left: 180px;
-}
 .espeto-lang-mobile{
-    position: relative;
-    bottom: 122px;
-    left: 60%;
-    width: 30vw;
+    position: absolute;
+    top: -20px;
+    right: 0px;
 }
 .preco_mobile{
     width: 94.304px;
@@ -678,13 +662,66 @@ aside > p{
     bottom: 0px;
     left: 0px;
     z-index: 1;
+    width: 97px;
+    height: 53px;
+    background-color: #F5CA48;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    overflow: hidden;
+}
+.aumentar{
+    height: 100%;
+    border: none;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ffffff00;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diminuir{
+    height: 100%;
+    border: none;
+    width: 40%;
+    font-size: 25px;
+    background-color: #ffffff00;
+    font-family: popins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.contador{
+    width: 20%;
+    height: 100%;
+    font-family: poppins;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff00;
+}
+.diminuir:active, .aumentar:active {
+    background-color: #eeb61b;
 }
 .espeto-car-mobile{
-    width: 100px;
+    width: 140px;
     height: 161px;
     flex-shrink: 0;
-    border-radius: 22px;
-    position: relative;
-    left: 310px;
-    top: -104px;}
+    border-radius: 25px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.sec-categorias-mobile :hover :not(:hover){
+    background-color: #A098AE;
+    .bot-card{
+        background-color: red;
+    }
+}
+.card-categoria-espeto,.card-categoria-sobre, .card-categoria-bebida :hover{
+    background-color:black ;
+}
 }
