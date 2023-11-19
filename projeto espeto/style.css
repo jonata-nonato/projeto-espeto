@@ -605,6 +605,7 @@ aside > p{
     box-shadow: 0px 4px 10px 0px #000;
     margin-bottom: 34px;
     margin-left: 20px;
+    position:relative ;
 }
 .card-mobile-espeto > h1 {
     width: 122.167px;
@@ -673,9 +674,10 @@ aside > p{
         width: auto;
 }
 .retangulo{
-    position: relative;
-    top: -143px;
-    left: -154.4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
 }
 .espeto-car-mobile{
     width: 100px;
