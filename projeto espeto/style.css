@@ -529,7 +529,7 @@ aside > p{
     margin-left: -10px;
    }
    
-   .card-categoria-espeto{
+   /* .card-categoria-espeto{
     background: #F5CA48;
     width: 30%;
     max-width: 150px;
@@ -541,8 +541,8 @@ aside > p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-   .card-categoria-sobre{
+   } */
+   .card-categoria-mobile{
     background: #f5f5f5;
     width: 30%;
     max-width: 150px;
@@ -555,7 +555,7 @@ aside > p{
     justify-content: center;
     align-items: center;
    }
-   .card-categoria-bebida{
+   /* .card-categoria-bebida{
     background: #f5f5f5;
     width: 30%;
     max-width: 150px;
@@ -567,7 +567,7 @@ aside > p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
+   } */
    .img-card-mobile{
     width: 90px;
     height: 80px;
@@ -715,10 +715,11 @@ aside > p{
     right: 0px;
     top: 0px;
 }
-.sec-categorias-mobile :hover :not(:hover){
-    background-color: #A098AE;
+.card-categoria-mobile:hover{
+    background-color: #F5CA48;
     .bot-card{
-        background-color: red;
+        background-color:#f5f5f5;
+        color: #000;
     }
 }
 .card-categoria-espeto,.card-categoria-sobre, .card-categoria-bebida :hover{
