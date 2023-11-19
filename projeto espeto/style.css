@@ -576,8 +576,8 @@ aside > p{
     text-align: center;
    }
     .bot-card{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: none;
     background-color: #F5CA48;
     border-radius: 50%;
@@ -662,7 +662,7 @@ aside > p{
     bottom: 0px;
     left: 0px;
     z-index: 1;
-    width: 97px;
+    width: 96px;
     height: 53px;
     background-color: #F5CA48;
     border-top-right-radius: 25px;
@@ -707,7 +707,7 @@ aside > p{
     background-color: #eeb61b;
 }
 .espeto-car-mobile{
-    width: 140px;
+    width: 181px;
     height: 161px;
     flex-shrink: 0;
     border-radius: 25px;
@@ -725,4 +725,21 @@ aside > p{
 .card-categoria-espeto,.card-categoria-sobre, .card-categoria-bebida :hover{
     background-color:black ;
 }
+.estrela{
+    position: relative;
+    top: -13px;
+    left: 165px;
+}
+.card-mobile-espeto > h3{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: -30px;
+    left: 180px;
+}
+
 }
