@@ -741,5 +741,21 @@ aside > p{
     top: -30px;
     left: 180px;
 }
+.estrela-carne{
+    position: relative;
+    top: -13px;
+    left: 145px;
+}
+.card-mobile-espeto > .avaliacao-carne{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: -30px;
+    left: 158px;
+}
 
 }
