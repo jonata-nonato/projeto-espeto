@@ -486,12 +486,13 @@ aside > p{
     .mobile > main > h3 {
         color: #000;
         font-family: Montserrat;
-        font-size: 16px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         margin-left: 21px;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
+        margin-top: 25px;
     }
     .mobile > header{
         background-color: #F9F9FB;
@@ -507,7 +508,7 @@ aside > p{
    .mobile > header > h1 {
     color: #313234;
     font-family: Montserrat;
-    font-size: 45px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -528,20 +529,6 @@ aside > p{
     line-height: normal;
     margin-left: 01px;
    }
-   
-   /* .card-categoria-espeto{
-    background: #F5CA48;
-    width: 30%;
-    max-width: 150px;
-    height: 227px;
-    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
-    border-radius: 20px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   } */
    .card-categoria-mobile{
     background: #f5f5f5;
     width: 30%;
@@ -555,19 +542,6 @@ aside > p{
     justify-content: center;
     align-items: center;
    }
-   /* .card-categoria-bebida{
-    background: #f5f5f5;
-    width: 30%;
-    max-width: 150px;
-    height: 227px;
-    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
-    border-radius: 20px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   } */
    .img-card-mobile{
     width: 90px;
     height: 80px;
@@ -596,7 +570,7 @@ aside > p{
     top: -26px;
    }
 
-.card-mobile-espeto{
+.card-mobile{
     width: 89vw;
     height: 161px;
     flex-shrink: 0;
@@ -608,38 +582,16 @@ aside > p{
     position:relative ;
     overflow: hidden;
 }
-.card-mobile-espeto > h1 {
-    width: 122.167px;
-    color: #000;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: relative;
-    top: 27px;
-    left: 10px;
-}
 .coroa{
     position: relative;
     top: 9.5px;
-    left: 27px;
-}
-.card-mobile-espeto > .nome-do-espeto{
-    position: relative;
-    top: 20px;
     left: 20px;
-    width: 138px;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 }
 .espeto-lang-mobile{
     position: absolute;
     top: -20px;
     right: 0px;
+    user-select: none;
 }
 .preco_mobile{
     width: 94.304px;
@@ -653,9 +605,10 @@ aside > p{
     top: 25px;
     left: 21px;
     }
-    .card-prod-espeto{
+    .card-prod{
         height: 100%;
         width: auto;
+        user-select: none;
 }
 .retangulo{
     position: absolute;
@@ -722,15 +675,12 @@ aside > p{
         color: #000;
     }
 }
-.card-categoria-espeto,.card-categoria-sobre, .card-categoria-bebida :hover{
-    background-color:black ;
-}
 .estrela{
     position: relative;
     top: -13px;
     left: 165px;
 }
-.card-mobile-espeto > h3{
+.card-mobile> h3{
     color: #000;
     font-family: "Montserrat";
     font-style: normal;
@@ -740,22 +690,6 @@ aside > p{
     position: relative;
     top: -28px;
     left: 180px;
-}
-.estrela-carne{
-    position: relative;
-    top: -13px;
-    left: 145px;
-}
-.card-mobile-espeto > .avaliacao-carne{
-    color: #000;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -28px;
-    left: 158px;
 }
 .espeto-frang-mobile{
     position: absolute;
@@ -771,19 +705,7 @@ aside > p{
     width: 270px;
     height: 150px;
 }
-.card-mobile-sobremesa{
-    width: 89vw;
-    height: 161px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #000;
-    margin-bottom: 34px;
-    margin-left: 20px;
-    position:relative ;
-    overflow: hidden;
-}
-.card-mobile-sobremesa > h1 {
+.card-mobile> h1 {
     width: 122.167px;
     color: #000;
     font-family: "Montserrat";
@@ -793,41 +715,8 @@ aside > p{
     line-height: normal;
     position: relative;
     top: 27px;
-    left: 10px;
-}
-.card-mobile-sobremesa > .nome-da-sobremesa{
-    position: relative;
-    top: 20px;
-    left: 20px;
-    width: 138px;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.card-mobile-sobremesa > h3{
-    color: #000;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -28px;
-    left: 180px;
-}
-.card-mobile-sobremesa > h1 {
-    width: 122.167px;
-    color: #000;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: relative;
-    top: 27px;
-    left: 27px;
+    left: 40px;
+    text-align: start;
 }
 .sobre-pudim-mobile{
     width: 181px;
@@ -838,9 +727,34 @@ aside > p{
     right: 0px;
     top: 0px;
 }
-.card-mobile-sobremesa > .avaliacao-pudim{
-    color: #000;
+.img-coca-mobile{
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 160px;
+    height: 160px;
+}
+.img-fanta-mobile{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 160px;
+    height: 160px;
+}
+.img-pepsi-mobile{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 160px;
+    height: 160px;
+}
+.card-mobile .nome-produto{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 138px;
     font-family: "Montserrat";
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
