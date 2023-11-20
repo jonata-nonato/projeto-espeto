@@ -526,7 +526,7 @@ aside > p{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: 0px;
+    margin-left: 01px;
    }
    
    /* .card-categoria-espeto{
@@ -749,6 +749,109 @@ aside > p{
     left: 145px;
 }
 .card-mobile-espeto > .avaliacao-carne{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+    left: 158px;
+}
+.espeto-frang-mobile{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+}
+.sobre-bolo-mobile{
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    width: 270px;
+    height: 150px;
+}
+.card-mobile-sobremesa{
+    width: 89vw;
+    height: 161px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #000;
+    margin-bottom: 34px;
+    margin-left: 20px;
+    position:relative ;
+    overflow: hidden;
+}
+.card-mobile-sobremesa > h1 {
+    width: 122.167px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 27px;
+    left: 10px;
+}
+.card-mobile-sobremesa > .nome-da-sobremesa{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 138px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.card-mobile-sobremesa > h3{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+    left: 180px;
+}
+.card-mobile-sobremesa > h1 {
+    width: 122.167px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 27px;
+    left: 27px;
+}
+.sobre-pudim-mobile{
+    width: 181px;
+    height: 161px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.card-mobile-sobremesa > .avaliacao-pudim{
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+    left: 158px;
+}
+.card-mobile-sobremesa > .avaliacao-trufa{
     color: #000;
     font-family: "Montserrat";
     font-style: normal;
