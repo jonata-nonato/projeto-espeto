@@ -640,6 +640,7 @@ aside > p{
     position: absolute;
     top: -20px;
     right: 0px;
+    user-select: none;
 }
 .preco_mobile{
     width: 94.304px;
@@ -656,6 +657,7 @@ aside > p{
     .card-prod-espeto{
         height: 100%;
         width: auto;
+        user-select: none;
 }
 .retangulo{
     position: absolute;
@@ -757,5 +759,4 @@ aside > p{
     top: -28px;
     left: 158px;
 }
-
 }
