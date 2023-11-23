@@ -16,6 +16,7 @@
 <body>
     
     <div class="desktop">
+        <form action="">
         <header>
             <h1>ESPETINHOS DO DOM</h1>
         </header>
@@ -42,7 +43,7 @@
             <section class="sec-esp">
                 <div class="card-espetinhos">
                     <img src="imagens/img-prato-de-espeto-carne.png" alt="img-espeto-de-carne">
-                    <p>Espeto de carne</p>
+                    <p>Espeto de carne</p> 
                     <footer>
                         <p class="cifrao">
                             $5.70</p>
@@ -53,7 +54,7 @@
         
                 <div class="card-espetinhos">
                     <img src="imagens/img-prato-de-espeto-camarao.png" alt="img-espeto-de-camarao">
-                    <p>Espeto de frango</p>
+                    <p>Espeto de frango</p> 
                     <footer>
                         <p class="cifrao">
                             $5.70</p>
@@ -64,7 +65,7 @@
         
                 <div class="card-espetinhos">
                     <img src="imagens/img-prato-de-espeto-misto.png" alt="img-espeto-misto">
-                    <p>Espeto misto</p>
+                    <p>Espeto misto</p> 
                     <footer>
                         <p class="cifrao">
                             $5.70</p>
@@ -168,9 +169,11 @@
         
             </div>
         </aside>
+    </form>
     </div>
     
     <div class="mobile">
+        <form action="">
         <header>
             <h1>
                 Cardápio
@@ -226,6 +229,11 @@
                     <div class="retangulo">
 
                     </div>
+                        <div class="qnt-pedido" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="menos" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" id="numerador" name="quanti" class="number" size="1" type="text" value="0" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
                 </div>
 
                 <div class="card-mobile">
@@ -240,6 +248,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
                 
                 <div class="card-mobile">
@@ -253,6 +268,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
             </div>
 
@@ -272,6 +294,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
 
                 <div class="card-mobile">
@@ -285,6 +314,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
                 
                 <div class="card-mobile">
@@ -298,6 +334,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
             </div>
 
@@ -317,6 +360,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
 
                 <div class="card-mobile">
@@ -330,6 +380,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
                 
                 <div class="card-mobile">
@@ -343,6 +400,13 @@
                     <div class="retangulo">
 
                     </div>
+                    <div>
+                        <div class="produto_qnt_princ" data-app="product.quantity">     
+                          <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+                          <input class="quanti qnt_menor_maior" name="quanti" class="text" size="1" type="text" value="1" maxlength="5" />
+                          <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+                        </div> 
+                    </div> 
                 </div>
             </div>
             
@@ -350,5 +414,19 @@
         <footer>
 
         </footer>
+        <input type="button" value="enviar formulario">
+        </form>
     </div>
+    <script>
+        function process_geral(quant, element){
+            var classValue = parseInt(element.parentElement.querySelector('.quanti').value);
+            classValue+=quant;
+            //console.log(classValue); 
+            if(classValue < 1){
+                element.parentElement.querySelector("input.quanti").value = 0;
+            }else{ 
+                element.parentElement.querySelector("input.quanti").value = classValue;    
+            }
+        }  
+        </script>
 </html>

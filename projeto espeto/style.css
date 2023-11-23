@@ -696,7 +696,7 @@ aside > p{
 .sobre-bolo-mobile{
     position: absolute;
     top: 10px;
-    right: -15px;
+    right: -50px;
     width: 270px;
     height: 150px;
 }
@@ -754,6 +754,49 @@ aside > p{
     top: 55px;
     left: 20px;
 }
+.qnt-pedido{
+    position: relative;
+    left: 0;
+    top: 74px;
+    background-color: #00000058;
+    width: 96px;
+    height: 53px;
+    overflow: hidden;
+    z-index: 2;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+#mais{
+    height: 100%;
+    width: 35%;
+    font-size: 30px;
+    border: none;
+}
+#menos{
+    height: 100%;
+    width: 35%;
+    font-size: 40px;
+    border: none;
+    position: relative;
+}
+#numerador{
+    width: 30%;
+    font-size: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+/* <div class="produto_qnt_princ" data-app="product.quantity">     
+    <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
+    <input class="quanti qnt_menor_maior" name="quanti" class="number" size="1" type="text" value="0" maxlength="5" />
+    <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
+</div>  */
 }
 @media only screen and (max-width: 350px) and (max-height: 1281px) {
     .card-categoria-mobile{
@@ -763,10 +806,32 @@ aside > p{
         margin-top: 10px;
     }
     .card-categoria-mobile p{
-        font-size: 12px;
+        font-size: 80%;
     }
     .img-card-mobile{
         width: 70px;
         height: 70px;
+    }
+    .mobile > main > h3{
+        margin-left: 1px;
+    }
+    .mobile > header > h1{
+        margin-left: 3%;
+    }
+    .card-mobile{
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+    .card-categoria-mobile{
+        margin-left: 2%;
+    }
+    .card-mobile .nome-produto{
+        font-size: 80%;
+    }
+    .card-mobile> h1{
+        font-size: 80%;
+    }
+    .espeto-lang-mobile{
+        width: 40vw;
     }
 }
