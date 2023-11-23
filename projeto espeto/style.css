@@ -601,9 +601,9 @@ aside > p{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    position: relative;
-    top: 25px;
-    left: 21px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
     }
     .card-prod{
         height: 100%;
@@ -660,7 +660,7 @@ aside > p{
     background-color: #eeb61b;
 }
 .espeto-car-mobile{
-    width: 181px;
+    width: 161px;
     height: 161px;
     flex-shrink: 0;
     border-radius: 25px;
@@ -674,11 +674,6 @@ aside > p{
         background-color:#f5f5f5;
         color: #000;
     }
-}
-.estrela{
-    position: relative;
-    top: -13px;
-    left: 165px;
 }
 .card-mobile> h3{
     color: #000;
@@ -749,29 +744,29 @@ aside > p{
     height: 160px;
 }
 .card-mobile .nome-produto{
-    position: relative;
-    top: 20px;
+    width: 160px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 55px;
     left: 20px;
-    width: 138px;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -28px;
-    left: 158px;
 }
-.card-mobile-sobremesa > .avaliacao-trufau{
-    color: #000;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -28px;
-    left: 158px;
 }
+@media only screen and (max-width: 350px) and (max-height: 1281px) {
+    .card-categoria-mobile{
+        height: 170px;
+        width: 33%;
+        gap: 0;
+        margin-top: 10px;
+    }
+    .card-categoria-mobile p{
+        font-size: 12px;
+    }
+    .img-card-mobile{
+        width: 70px;
+        height: 70px;
+    }
 }
