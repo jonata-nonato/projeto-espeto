@@ -758,7 +758,7 @@ aside > p{
     position: relative;
     left: 0;
     top: 74px;
-    background-color: #00000058;
+    background-color: #F5CA48;
     width: 96px;
     height: 53px;
     overflow: hidden;
@@ -770,33 +770,44 @@ aside > p{
     display: flex;
     overflow: hidden;
 }
-#mais{
+.adicionar{
     height: 100%;
     width: 35%;
     font-size: 30px;
     border: none;
+    background-color: #a098ae00;
+    position: relative;
+    right: 2px;
+    top: 1px;
 }
-#menos{
+.menos{
     height: 100%;
     width: 35%;
     font-size: 40px;
     border: none;
+    background-color: #a098ae00;
     position: relative;
+    left: 3px;
+    bottom:2px;
 }
-#numerador{
+.quanti{
     width: 30%;
-    font-size: 40px;
+    font-size: 20px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1px;
-}
-/* <div class="produto_qnt_princ" data-app="product.quantity">     
-    <input class="qnt_menor_maior" type="button" id="plus" value='-' onclick="process_geral(-1, this)" />
-    <input class="quanti qnt_menor_maior" name="quanti" class="number" size="1" type="text" value="0" maxlength="5" />
-    <input class="qnt_menor_maior" type="button" id="minus" value='+' onclick="process_geral(1, this)" /> 
-</div>  */
+    position: relative;
+    background-color: #a098ae00;
+    left: 7px;
+    outline-style: inherit;
+    -moz-appearance: textfield;
+    }
+input.quanti::-webkit-inner-spin-button,
+input.quanti::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
 }
 @media only screen and (max-width: 350px) and (max-height: 1281px) {
     .card-categoria-mobile{
@@ -833,5 +844,6 @@ aside > p{
     }
     .espeto-lang-mobile{
         width: 40vw;
+        top: -10px;
     }
 }
