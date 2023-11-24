@@ -807,11 +807,12 @@ aside > p{
         width: 70px;
         height: 70px;
     }
-    .mobile > main > h3{
-        margin-left: 1px;
+    .mobile h3{
+        font-size: 6vw;
     }
-    .mobile > header > h1{
+    header > h1{
         margin-left: 3%;
+        font-size: 17vw;
     }
     .card-mobile{
         margin-left: 2%;
@@ -830,4 +831,8 @@ aside > p{
         width: 40vw;
         top: -10px;
     }
+    .qnt-pedido{
+        position: relative;
+        left: 0;
+        top: 76px;
 }
