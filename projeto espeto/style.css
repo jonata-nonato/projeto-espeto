@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -28,10 +27,9 @@ h1 {
 }
 /* TUDO QUE ESTA DENTRO DO MAIN */
 main{
-    width: 73%;
+    width: 100%;
     overflow: hidden;
     float: left;
-    margin: 0vw 2vw;
 }
 
     /* SECTION CATEGORIA */
@@ -69,7 +67,7 @@ main{
     .sec-esp{
         display: flex;
         justify-content: space-between;
-     }
+    }
     .card-espetinhos{
         display: flex;
         flex-direction: column;
@@ -143,7 +141,7 @@ main{
     .sec-beb{
         display: flex;
         justify-content: space-between;
-     }
+    }
     .card-bebidas{
         display: flex;
         flex-direction: column;
@@ -277,7 +275,7 @@ aside > p{
 .mais:active {
     background-color: #f8c436; /* Altere a cor conforme necessário */
     color: white;
-  }
+}
 
 .balance > p{
     color: var(--color-black, #2E2E2E);
@@ -352,7 +350,6 @@ aside > p{
     }
     .preco{
         font-size: 60px;
-
     }
     .cifrao{
         font-size: 50px;
@@ -389,20 +386,20 @@ aside > p{
         justify-content: center;
         align-items: center;
         gap: 30px;
-     }
-     footer > p{
+    }
+    footer > p{
         font-size: 300em;
         background: -webkit-linear-gradient(left, #eeb61b 22%, #2E2E2E 0%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-     }
-     .sec-sob{
+    }
+    .sec-sob{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-     .card-sobremesa{
+    .card-sobremesa{
         display: flex;
         flex-direction: column;
         width: 50vw;
@@ -424,7 +421,7 @@ aside > p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     }
+    }
     .card-bebidas{
         display: flex;
         flex-direction: column;
@@ -475,7 +472,8 @@ aside > p{
     }
     body{
         background-color: #F9F9FB;
-        width: 100vw;
+        width: 100%;
+        overflow: auto;
     }
     .mobile > header > .menu{
         width: 27px;
@@ -483,7 +481,7 @@ aside > p{
         flex-shrink: 0;
         margin-right: 20px;
     }
-    .mobile > main > h3 {
+    .mobile h3 {
         color: #000;
         font-family: Montserrat;
         font-size: 25px;
@@ -491,8 +489,8 @@ aside > p{
         font-weight: 700;
         line-height: normal;
         margin-left: 21px;
-        margin-bottom: 8px;
-        margin-top: 25px;
+        margin-bottom: 15px;
+        margin-top: 50px;
     }
     .mobile > header{
         background-color: #F9F9FB;
@@ -502,10 +500,10 @@ aside > p{
     .mobile{
         display: block;
     }
-   .desktop{
+    .desktop{
     display: none;
-   }
-   .mobile > header > h1 {
+    }
+    .mobile > header > h1 {
     color: #313234;
     font-family: Montserrat;
     font-size: 40px;
@@ -513,8 +511,8 @@ aside > p{
     font-weight: 700;
     line-height: normal;
     margin-left: 16px;
-   }
-   .sec-categorias-mobile{
+    }
+    .sec-categorias-mobile{
     width: 95vw;
     display: flex;
     justify-content: space-around;
@@ -528,8 +526,8 @@ aside > p{
     font-weight: 600;
     line-height: normal;
     margin-left: 01px;
-   }
-   .card-categoria-mobile{
+    }
+    .card-categoria-mobile{
     background: #f5f5f5;
     width: 30%;
     max-width: 150px;
@@ -541,14 +539,14 @@ aside > p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-   .img-card-mobile{
+    }
+    .img-card-mobile{
     width: 90px;
     height: 80px;
-   }
-   .card-categoria-espeto > p, .card-categoria-bebida > p, .card-categoria-sobre > p{
+    }
+    .card-categoria-espeto > p, .card-categoria-bebida > p, .card-categoria-sobre > p{
     text-align: center;
-   }
+    }
     .bot-card{
     width: 30px;
     height: 30px;
@@ -561,14 +559,14 @@ aside > p{
     font-style: normal;
     font-weight: 600;
     margin-top: 20px;
-   }
-   .titulos-cat{
+    }
+    .titulos-cat{
     margin-top: 27px;
-   }
-   .seta{
+    }
+    .seta{
     position: relative;
     top: -26px;
-   }
+    }
 
 .card-mobile{
     width: 89vw;
@@ -607,204 +605,190 @@ aside > p{
     }
     .card-prod{
         height: 100%;
-        width: auto;
-        user-select: none;
-}
-.retangulo{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    z-index: 1;
-    width: 96px;
-    height: 53px;
-    background-color: #F5CA48;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    display: flex;
-    overflow: hidden;
-}
-.aumentar{
-    height: 100%;
-    border: none;
-    width: 40%;
-    font-size: 20px;
-    background-color: #ffffff00;
-    font-family: poppins;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.diminuir{
-    height: 100%;
-    border: none;
-    width: 40%;
-    font-size: 25px;
-    background-color: #ffffff00;
-    font-family: popins;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-.contador{
-    width: 20%;
-    height: 100%;
-    font-family: poppins;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff00;
-}
-.diminuir:active, .aumentar:active {
-    background-color: #eeb61b;
-}
-.espeto-car-mobile{
-    width: 161px;
-    height: 161px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
-.card-categoria-mobile:hover{
-    background-color: #F5CA48;
-    .bot-card{
-        background-color:#f5f5f5;
+        width: 100vw;
+    }
+    .aumentar{
+        height: 100%;
+        border: none;
+        width: 40%;
+        font-size: 20px;
+        background-color: #ffffff00;
+        font-family: poppins;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .diminuir{
+        height: 100%;
+        border: none;
+        width: 40%;
+        font-size: 25px;
+        background-color: #ffffff00;
+        font-family: popins;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    .contador{
+        width: 20%;
+        height: 100%;
+        font-family: poppins;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff00;
+    }
+    .diminuir:active, .aumentar:active {
+        background-color: #eeb61b;
+    }
+    .espeto-car-mobile{
+        width: 161px;
+        height: 161px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .card-categoria-mobile:hover{
+        background-color: #F5CA48;
+        .bot-card{
+            background-color:#f5f5f5;
+            color: #000;
+        }
+    }
+    .card-mobile> h3{
         color: #000;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 12px;
+        position: relative;
+        top: -28px;
+        left: 180px;
     }
-}
-.card-mobile> h3{
-    color: #000;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 12px;
-    position: relative;
-    top: -28px;
-    left: 180px;
-}
-.espeto-frang-mobile{
-    position: absolute;
-    top: 10px;
-    right: 0px;
-    width: 150px;
-    height: 150px;
-}
-.sobre-bolo-mobile{
-    position: absolute;
-    top: 10px;
-    right: -50px;
-    width: 270px;
-    height: 150px;
-}
-.card-mobile> h1 {
-    width: 122.167px;
-    color: #000;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: relative;
-    top: 27px;
-    left: 40px;
-    text-align: start;
-}
-.sobre-pudim-mobile{
-    width: 181px;
-    height: 161px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
-.img-coca-mobile{
-    position: absolute;
-    right: 0;
-    top: 2px;
-    width: 160px;
-    height: 160px;
-}
-.img-fanta-mobile{
-    position: absolute;
-    top: 0px;
-    right: 0;
-    width: 160px;
-    height: 160px;
-}
-.img-pepsi-mobile{
-    position: absolute;
-    right: 0;
-    top: 0px;
-    width: 160px;
-    height: 160px;
-}
-.card-mobile .nome-produto{
-    width: 160px;
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    top: 55px;
-    left: 20px;
-}
-.qnt-pedido{
-    position: relative;
-    left: 0;
-    top: 74px;
-    background-color: #F5CA48;
-    width: 96px;
-    height: 53px;
-    overflow: hidden;
-    z-index: 2;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-}
-.adicionar{
-    height: 100%;
-    width: 35%;
-    font-size: 30px;
-    border: none;
-    background-color: #a098ae00;
-    position: relative;
-    right: 2px;
-    top: 1px;
-}
-.menos{
-    height: 100%;
-    width: 35%;
-    font-size: 40px;
-    border: none;
-    background-color: #a098ae00;
-    position: relative;
-    left: 3px;
-    bottom:2px;
-}
-.quanti{
-    width: 30%;
-    font-size: 20px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: #a098ae00;
-    left: 7px;
-    outline-style: inherit;
-    -moz-appearance: textfield;
+    .espeto-frang-mobile{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        width: 150px;
+        height: 150px;
     }
-input.quanti::-webkit-inner-spin-button,
-input.quanti::-webkit-outer-spin-button {
+    .sobre-bolo-mobile{
+        position: absolute;
+        top: 10px;
+        right: -50px;
+        width: 270px;
+        height: 150px;
+    }
+    .card-mobile> h1 {
+        width: 122.167px;
+        color: #000;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: relative;
+        top: 27px;
+        left: 40px;
+        text-align: start;
+    }
+    .sobre-pudim-mobile{
+        width: 181px;
+        height: 161px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .img-coca-mobile{
+        position: absolute;
+        right: 0;
+        top: 2px;
+        width: 160px;
+        height: 160px;
+    }
+    .img-fanta-mobile{
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 160px;
+        height: 160px;
+    }
+    .img-pepsi-mobile{
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 160px;
+        height: 160px;
+    }
+    .card-mobile .nome-produto{
+        width: 160px;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: absolute;
+        top: 55px;
+        left: 20px;
+    }
+    .qnt-pedido{
+        position: relative;
+        left: 0;
+        top: 74px;
+        background-color: #F5CA48;
+        width: 96px;
+        height: 53px;
+        overflow: hidden;
+        z-index: 2;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+    }
+    .adicionar{
+        height: 100%;
+        width: 35%;
+        font-size: 30px;
+        border: none;
+        background-color: #a098ae00;
+        position: relative;
+        right: 2px;
+        top: 1px;
+    }
+    .menos{
+        height: 100%;
+        width: 35%;
+        font-size: 40px;
+        border: none;
+        background-color: #a098ae00;
+        position: relative;
+        left: 3px;
+        bottom:2px;
+    }
+    .quanti{
+        width: 30%;
+        font-size: 20px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #a098ae00;
+        left: 7px;
+        outline-style: inherit;
+        -moz-appearance: textfield;
+    }
+    input.quanti::-webkit-inner-spin-button,
+    input.quanti::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
     }
