@@ -457,23 +457,13 @@ aside > p{
     }
 }
 @media only screen and (max-width: 680px) and (max-height: 1281px) {
-
-    aside{
-        width: 0px;
-        height: 0px;
-    }
-    .desktop > main{
-        width: 0px;
-        height: 0px;
-    }
-    .mobile > main {
-        width: 100%;
-        height: 100%;
-    }
     body{
         background-color: #F9F9FB;
         width: 100%;
         overflow: auto;
+    }
+    .mobile{
+        display: block;
     }
     .mobile > header > .menu{
         width: 27px;
@@ -497,192 +487,85 @@ aside > p{
         display: flex;
         justify-content: space-between;
     }
-    .mobile{
-        display: block;
-    }
-    .desktop{
-    display: none;
-    }
     .mobile > header > h1 {
-    color: #313234;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 16px;
+        color: #313234;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 16px;
     }
-    .sec-categorias-mobile{
-    width: 95vw;
-    display: flex;
-    justify-content: space-around;
-    gap: 2%;
-    align-items: center;
-    height: 100%;
-    color: #313234;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-left: 01px;
+    .categorias-mobile{
+        width: 95vw;
+        display: flex;
+        justify-content: space-around;
+        gap: 2%;
+        align-items: center;
+        height: 100%;
+        color: #313234;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 01px;
     }
     .card-categoria-mobile{
-    background: #f5f5f5;
-    width: 30%;
-    max-width: 150px;
-    height: 227px;
-    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
-    border-radius: 20px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
-    .img-card-mobile{
-    width: 90px;
-    height: 80px;
-    }
-    .card-categoria-espeto > p, .card-categoria-bebida > p, .card-categoria-sobre > p{
-    text-align: center;
-    }
-    .bot-card{
-    width: 30px;
-    height: 30px;
-    border: none;
-    background-color: #F5CA48;
-    border-radius: 50%;
-    color: #ffffff;
-    font-family: poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    margin-top: 20px;
-    }
-    .titulos-cat{
-    margin-top: 27px;
-    }
-    .seta{
-    position: relative;
-    top: -26px;
-    }
-
-.card-mobile{
-    width: 89vw;
-    height: 161px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #000;
-    margin-bottom: 34px;
-    margin-left: 20px;
-    position:relative ;
-    overflow: hidden;
-}
-.coroa{
-    position: relative;
-    top: 9.5px;
-    left: 20px;
-}
-.espeto-lang-mobile{
-    position: absolute;
-    top: -20px;
-    right: 0px;
-    user-select: none;
-}
-.preco_mobile{
-    width: 94.304px;
-    color: #C4C4C4;
-    font-family: "Montserrat";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: absolute;
-    top: 80px;
-    left: 20px;
-    }
-    .card-prod{
-        height: 100%;
-        width: 100vw;
-    }
-    .aumentar{
-        height: 100%;
-        border: none;
-        width: 40%;
-        font-size: 20px;
-        background-color: #ffffff00;
-        font-family: poppins;
+        background: #f5f5f5;
+        width: 30%;
+        max-width: 150px;
+        height: 227px;
+        filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
+        border-radius: 20px;
+        margin-left: 10px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .diminuir{
-        height: 100%;
-        border: none;
-        width: 40%;
-        font-size: 25px;
-        background-color: #ffffff00;
-        font-family: popins;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-    }
-    .contador{
-        width: 20%;
-        height: 100%;
-        font-family: poppins;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ffffff00;
-    }
-    .diminuir:active, .aumentar:active {
-        background-color: #eeb61b;
-    }
-    .espeto-car-mobile{
-        width: 161px;
-        height: 161px;
-        flex-shrink: 0;
-        border-radius: 25px;
-        position: absolute;
-        right: 0px;
-        top: 0px;
     }
     .card-categoria-mobile:hover{
         background-color: #F5CA48;
-        .bot-card{
+        .btn-card{
             background-color:#f5f5f5;
             color: #000;
         }
     }
-    .card-mobile> h3{
-        color: #000;
-        font-family: "Montserrat";
+    .img-card-mobile{
+        width: 90px;
+        height: 80px;
+    }
+    .btn-card{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: #F5CA48;
+        border-radius: 50%;
+        color: #ffffff;
+        font-family: poppins;
+        font-size: 20px;
         font-style: normal;
         font-weight: 600;
-        line-height: normal;
-        font-size: 12px;
-        position: relative;
-        top: -28px;
-        left: 180px;
+        margin-top: 20px;
     }
-    .espeto-frang-mobile{
-        position: absolute;
-        top: 10px;
-        right: 0px;
-        width: 150px;
-        height: 150px;
+    .titulos-cate{
+        margin-top: 27px;
     }
-    .sobre-bolo-mobile{
-        position: absolute;
-        top: 10px;
-        right: -50px;
-        width: 270px;
-        height: 150px;
+    .cate-espetos, .cate-sobremesas, .cate-bebidas{
+        height: 100%;
+        width: 100vw;
+    }
+    .card-mobile{
+        width: 89vw;
+        height: 161px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        background: #fff;
+        box-shadow: 0px 4px 10px 0px #000;
+        margin-bottom: 34px;
+        margin-left: 20px;
+        position:relative ;
+        overflow: hidden;
     }
     .card-mobile> h1 {
         width: 122.167px;
@@ -697,7 +580,66 @@ aside > p{
         left: 40px;
         text-align: start;
     }
-    .sobre-pudim-mobile{
+    .coroa{
+        position: relative;
+        top: 9.5px;
+        left: 20px;
+    }
+    .card-mobile .nome-produto-mobile{
+        width: 160px;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: absolute;
+        top: 55px;
+        left: 20px;
+    }
+    .preco-mobile{
+        width: 94.304px;
+        color: #C4C4C4;
+        font-family: "Montserrat";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+    /* IMAGENS DA CATEGORIA ESPETOS */
+    .img-ling-mobile{
+        position: absolute;
+        top: -20px;
+        right: 0px;
+        user-select: none;
+    }
+    .img-carne-mobile{
+        width: 161px;
+        height: 161px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .img-frango-mobile{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        width: 150px;
+        height: 150px;
+    }
+    /* IMAGENS DA CATEGORIA SOBREMESAS*/
+    .img-bolo-mobile{
+        position: absolute;
+        top: 10px;
+        right: -50px;
+        width: 270px;
+        height: 150px;
+    }
+    .img-pudim-mobile{
         width: 181px;
         height: 161px;
         flex-shrink: 0;
@@ -706,6 +648,14 @@ aside > p{
         right: 0px;
         top: 0px;
     }
+    .img-cone-mobile{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        width: 150px;
+        height: 150px;
+    }
+    /* IMAGENS DA CATEGORIA SOBREMESA*/
     .img-coca-mobile{
         position: absolute;
         right: 0;
@@ -727,17 +677,7 @@ aside > p{
         width: 160px;
         height: 160px;
     }
-    .card-mobile .nome-produto{
-        width: 160px;
-        font-family: "Montserrat";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        position: absolute;
-        top: 55px;
-        left: 20px;
-    }
+
     .qnt-pedido{
         position: relative;
         left: 0;
@@ -754,27 +694,17 @@ aside > p{
         display: flex;
         overflow: hidden;
     }
-    .adicionar{
-        height: 100%;
-        width: 35%;
-        font-size: 30px;
-        border: none;
-        background-color: #a098ae00;
-        position: relative;
-        right: 2px;
-        top: 1px;
-    }
-    .menos{
+    .btn-remover{
         height: 100%;
         width: 35%;
         font-size: 40px;
         border: none;
-        background-color: #a098ae00;
+        background-color: transparent;
         position: relative;
         left: 3px;
         bottom:2px;
     }
-    .quanti{
+    .numerador{
         width: 30%;
         font-size: 20px;
         border: none;
@@ -782,58 +712,41 @@ aside > p{
         justify-content: center;
         align-items: center;
         position: relative;
-        background-color: #a098ae00;
+        background-color: transparent;
         left: 7px;
         outline-style: inherit;
         -moz-appearance: textfield;
+    }
+    .btn-adicionar{
+        height: 100%;
+        width: 35%;
+        font-size: 30px;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        right: 2px;
+        top: 1px;
+    }
+
+
+    aside{
+        width: 0px;
+        height: 0px;
+    }
+    .desktop > main{
+        width: 0px;
+        height: 0px;
+    }
+    .mobile > main {
+        width: 100%;
+        height: 100%;
+    }
+    .desktop{
+    display: none;
     }
     input.quanti::-webkit-inner-spin-button,
     input.quanti::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
     }
-}
-@media only screen and (max-width: 350px) and (max-height: 1281px) {
-    .card-categoria-mobile{
-        height: 170px;
-        width: 33%;
-        gap: 0;
-        margin-top: 10px;
-    }
-    .card-categoria-mobile p{
-        font-size: 80%;
-    }
-    .img-card-mobile{
-        width: 70px;
-        height: 70px;
-    }
-    .mobile h3{
-        font-size: 6vw;
-    }
-    header > h1{
-        margin-left: 3%;
-        font-size: 17vw;
-    }
-    .card-mobile{
-        margin-left: 2%;
-        margin-bottom: 20px;
-    }
-    .card-categoria-mobile{
-        margin-left: 2%;
-    }
-    .card-mobile .nome-produto{
-        font-size: 80%;
-    }
-    .card-mobile> h1{
-        font-size: 80%;
-    }
-    .espeto-lang-mobile{
-        width: 40vw;
-        top: -10px;
-    }
-    .qnt-pedido{
-        position: relative;
-        left: 0;
-        top: 76px;
-}
 }

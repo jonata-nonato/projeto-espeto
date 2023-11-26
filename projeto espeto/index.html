@@ -168,17 +168,13 @@
         </form>
     </div>
 
-    <!-- TELA MOBILE -->
     <form action="">
     <div class="mobile">
-        
         <header>
             <h1>
                 Cardápio
             </h1>
-            <div class="teste">
-                
-            </div>
+
             <div class="menu">
                 <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none">
                     <path d="M0.749981 7.50001H23.25C23.664 7.50001 23.9999 7.16398 23.9999 6.75003C23.9999 6.33601 23.6639 6.00005 23.25 6.00005H0.749981C0.335964 6.00005 0 6.33607 0 6.75003C0 7.16398 0.336026 7.50001 0.749981 7.50001Z" fill="#313234"/>
@@ -192,211 +188,212 @@
 
                 <h3>Categorias</h3>
 
-                <div class="sec-categorias-mobile">
+                <div class="categorias-mobile">
                     <div class="card-categoria-mobile">
                         <img class="img-card-mobile" src="imagens/espeto-icon.png"  alt="">
                         <p>Espetos</p>
-                        <button class="bot-card">></button> 
+                        <button class="btn-card">></button> 
                     </div>
 
                     <div class="card-categoria-mobile">
                         <img  class="img-card-mobile"src="imagens/bolo-icon.png" alt="">
                         <p>Sobremesas</p>
-                        <button class="bot-card">></button>
+                        <button class="btn-card">></button>
                     </div>
 
                     <div class="card-categoria-mobile">
                         <img  class="img-card-mobile"src="imagens/refrigerante-icon.png" alt="">
                         <p>Bebidas</p>
-                        <button class="bot-card"> > </button>
+                        <button class="btn-card"> > </button>
                     </div>
                 </div>
 
-                <h3 class="titulos-cat">Espetos</h3>
+                <form action="">
+                    <div class="cate-espetos">
+                        <h3 class="titulos-cat">Espetos</h3>
+                            <div class="card-mobile">
+                                <h1>Espetos</h1>
 
-                <div class="card-prod">
-                    <div class="card-mobile">
-                        <h1>Espetos</h1>
+                                <img class="coroa" src="imagens/coroa dourada-2.svg"    alt="coroa">
+                                <p class="nome-produto">Espeto de linguiça</p>
+                                <p class="preco-mobile" >R$ 8,00</p>
 
-                        <img class="coroa" src="imagens/coroa dourada-2.svg"    alt="coroa">
-                        <p class="nome-produto">Espeto de linguiça</p>
-                        <p class="preco_mobile" >R$ 8,00</p>
+                                <img class="img-ling-mobile" src="imagens/img-espeto-linguica-mobile.png" alt="linguiça-png">
 
-                        <img class="espeto-lang-mobile" src="imagens/img-espeto-linguica-mobile.png" alt="linguiça-png">
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
 
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+                                    <input class="numerador" id="numerador" name="numerador"  class="number" size="1" type="number" value="0"  maxlength="5" />
 
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="number" value="0"  maxlength="5" />
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
 
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
+                            <div class="card-mobile">
+                                <h1>Espetos</h1>
+
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Espeto de carne</p>
+                                <p class="preco-mobile">R$ 8,00</p>
+
+                                <img class="img-carne-mobile" src="imagens/img-espeto-de-carne-mobile.png" alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+
+                            <div class="card-mobile">
+                                <h1>Espetos</h1>
+
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Espeto de Frango</p>
+                                <p class="preco-mobile" >R$ 8,00</p>
+
+                                <img class="img-frango-mobile" src="imagens/img-espeto-de-frango-mobile.png" alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
                     </div>
 
-                    <div class="card-mobile">
-                        <h1>Espetos</h1>
+                        <h3 class="titulos-cat">Sobremesas</h3>
 
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Espeto de carne</p>
-                        <p class="preco_mobile">R$ 8,00</p>
+                    <div class="cate-sobremesas">
+                            <div class="card-mobile">
+                                <h1>Sobremesas</h1>
 
-                        <img class="espeto-car-mobile" src="imagens/img-espeto-de-carne-mobile.png" alt="">
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">bolo de chocolate</p>
+                                <p class="preco-mobile" >R$ 8,00</p>
 
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+                                <img class="img-bolo-mobile" src="imagens/img-bolo-de-chocolate-mobile.png" alt="">
 
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
 
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+
+                            <div class="card-mobile">
+                                <h1>Sobremesas</h1>
+
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Pudim de Leite</p>
+                                <p class="preco-mobile">R$ 8,00</p>
+
+                                <img class="img-pudim-mobile" src="imagens/img-pudim-mobile.png" alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+
+                            <div class="card-mobile">
+                                <h1>Sobremesas</h1>
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Cone Trufado</p>
+                                <p class="preco-mobile" >R$ 8,00</p>
+
+                                <img class="img-cone-mobile" src="imagens/img-cone-trufado-mobile.png" alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
                     </div>
 
-                    <div class="card-mobile">
-                        <h1>Espetos</h1>
+                        <h3 class="titulos-cat">Bebidas</h3>
+                    <div class="cate-bebidas">
+                            <div class="card-mobile">
+                                <h1>Bebidas</h1>
 
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Espeto de Frango</p>
-                        <p class="preco_mobile" >R$ 8,00</p>
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Fanta 2L</p>
+                                <p class="preco-mobile">R$ 7,50</p>
 
-                        <img class="espeto-frang-mobile" src="imagens/img-espeto-de-frango-mobile.png" alt="">
+                                <img class="img-fanta-mobile" src="imagens/refri-fanta.png" alt="">
 
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
 
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
 
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div>  
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+
+                            <div class="card-mobile">
+                                <h1>Bebidas</h1>
+
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Coca-Cola 1L</p>
+                                <p class="preco-mobile">R$ 7,00</p>
+
+                                <img class="img-coca-mobile" src="imagens/refri-coca.png"   alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+
+                            <div class="card-mobile">
+                                <h1>Bebidas</h1>
+
+                                <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
+                                <p class="nome-produto">Pepsi</p>
+                                <p class="preco-mobile" >R$ 8,00</p>
+
+                                <img class="img-pepsi-mobile" src="imagens/refri-pepsi.png"     alt="">
+
+                                <div class="qnt-pedido" data-app="product.quantity">
+                                    <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
+
+                                    <input class="numerador" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
+
+                                    <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" />
+                                </div>
+                            </div>
+                        <input type="button" value="enviar formulario">
                     </div>
-
-                <h3 class="titulos-cat">Sobremesas</h3>
-
-                    <div class="card-mobile">
-                        <h1>Sobremesas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">bolo de chocolate</p>
-                        <p class="preco_mobile" >R$ 8,00</p>
-
-                        <img class="sobre-bolo-mobile" src="imagens/img-bolo-de-chocolate-mobile.png" alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-
-                    <div class="card-mobile">
-                        <h1>Sobremesas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Pudim de Leite</p>
-                        <p class="preco_mobile">R$ 8,00</p>
-
-                        <img class="sobre-pudim-mobile" src="imagens/img-pudim-mobile.png" alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-
-                    <div class="card-mobile">
-                        <h1>Sobremesas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Cone Trufado</p>
-                        <p class="preco_mobile" >R$ 8,00</p>
-
-                        <img class="espeto-frang-mobile" src="imagens/img-cone-trufado-mobile.png" alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-
-                <h3 class="titulos-cat">Bebidas</h3>
-
-                    <div class="card-mobile">
-                        <h1>Bebidas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Fanta 2L</p>
-                        <p class="preco_mobile">R$ 7,50</p>
-
-                        <img class="img-fanta-mobile" src="imagens/refri-fanta.png"     alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-
-                    <div class="card-mobile">
-                        <h1>Bebidas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Coca-Cola 1L</p>
-                        <p class="preco_mobile">R$ 7,00</p>
-
-                        <img class="img-coca-mobile" src="imagens/refri-coca.png"   alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-
-                    <div class="card-mobile">
-                        <h1>Bebidas</h1>
-
-                        <img class="coroa" src="imagens/coroa dourada-2.svg" alt="">
-                        <p class="nome-produto">Pepsi</p>
-                        <p class="preco_mobile" >R$ 8,00</p>
-
-                        <img class="img-pepsi-mobile" src="imagens/refri-pepsi.png"     alt="">
-
-                        <div class="qnt-pedido" data-app="product.quantity">     
-                            <input class="btn-remover" type="button" id="menos" value='-'     onclick="process_geral(-1, this)" />
-
-                            <input class="quanti" id="numerador" name="quanti"  class="number" size="1" type="text" value="0"    maxlength="5" />
-
-                            <input class="btn-adicionar" type="button" id="mais" value='+' onclick="process_geral(1, this)" /> 
-                        </div> 
-                    </div>
-                    <input type="button" value="enviar formulario">
-                </div>
+                </form>
             </main>
-
         </div>
-    </form>
 </body>
 
 <script>
     function process_geral(quant, element) {
-        var classValue = parseInt(element.parentElement.querySelector('.quanti').value);
+        var classValue = parseInt(element.parentElement.querySelector('.numerador').value);
         classValue += quant;
 
         if (classValue < 1) {
-            element.parentElement.querySelector("input.quanti").value = 0;
+            element.parentElement.querySelector("input.numerador").value = 0;
         } else {
-            element.parentElement.querySelector("input.quanti").value = classValue;
+            element.parentElement.querySelector("input.numerador").value = classValue;
         }
     }
 </script>
