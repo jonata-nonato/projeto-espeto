@@ -742,7 +742,7 @@ aside > p{
         height: 100%;
     }
     .desktop{
-    display: none;
+        display: none;
     }
     input.quanti::-webkit-inner-spin-button,
     input.quanti::-webkit-outer-spin-button {
